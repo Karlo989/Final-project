@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kave - Kontakt</title>
+    <meta name="description" content="Kontaktirajte nas za pitanja o kavama, radionicama i degustacijama.">
+    <meta name="keywords" content="kava, kontakt, adresa, obrazac, forma">
+    <meta name="author" content="Tvoje ime">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="banner">
+    <img src="img/banner.png" alt="Banner svijeta kava" class="banner-slika">
+    <div class="banner-tekst">
+        <h1>Svijet Kave</h1>
+        <p>Mjesto za sve ljubitelje kave</p>
+    </div>
+</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna stranica</a></li>
+            <li><a href="novosti.html">Novosti</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            <li><a href="onama.html">O nama</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+        <h1>Kontakt Form</h1>
+    <div id="contact">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.548631506298!2d15.908538512132111!3d45.79554961114843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d14fcc3c9ec1%3A0xb04935cc4b2c2c83!2sVrbani%204%2C%2010000%2C%20Zagreb!5e1!3m2!1shr!2shr!4v1767815834979!5m2!1shr!2shr" 
+width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</iframe>
+    <section class="kontakt-info">
+        <h2>Kontakt</h2>
+        <p>Svijet Kave</p>
+        <p>Vrbani 4</p>
+        <p>10000 Zagreb, Hrvatska</p>
+
+    </section>
+
+    <section class="kontakt-forma">
+        <h3>Kontakt obrazac</h3>
+
+        <form action="#" method="post" novalidate>
+            <div class="form-grupa">
+                <label for="ime">Ime *</label>
+                <input type="text" id="ime" name="ime" required placeholder="Vaše ime">
+            </div>
+
+            <div class="form-grupa">
+                <label for="prezime">Prezime *</label>
+                <input type="text" id="prezime" name="prezime" required placeholder="Vaše prezime">
+            </div>
+
+            <div class="form-grupa">
+                <label for="email">E-mail adresa *</label>
+                <input type="email" id="email" name="email" required placeholder="vaš.email@primjer.com">
+            </div>
+
+            <div class="form-grupa">
+                <label for="drzava">Država</label>
+                <select id="drzava" name="drzava">
+                    <option value="">Odaberite državu</option>
+                    <option value="hrvatska">Hrvatska</option>
+                    <option value="slovenija">Slovenija</option>
+                    <option value="srbija">Srbija</option>
+                    <option value="bih">Bosna i Hercegovina</option>
+                    <option value="ostalo">Ostalo</option>
+                </select>
+            </div>
+
+            <div class="form-grupa">
+                <label for="opis">Opis</label>
+                <textarea id="opis" name="opis" rows="5" placeholder="Vaše pitanje ili poruka vezana uz kave..."></textarea>
+            </div>
+
+            <div class="form-gumbi">
+                <button type="submit">Pošalji</button>
+                <button type="reset">Obriši</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 Svijet Kave. Vlasnik Karlo Čunčič, sva prava pridržana.</p>
+                <div class="social-links">
+            <a href="https://github.com/Karlo989/projeect/tree/main" target="_blank" rel="noopener">
+                <img src="img/github.png" alt="GitHub Svijeta pića" width="32">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
